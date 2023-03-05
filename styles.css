@@ -23,16 +23,18 @@ li {
   padding-left: 30px;
 }
 
-img {
+.profile-photo img {
   width: auto;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid blue;
 }
 
 body {
   font-family: sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -50,11 +52,25 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+h1,
 h2,
 h3 {
   font-size: 20px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: blue underline;
+}
+.skills-header h2{
+  color: rebeccapurple;
+}
+a {
+  color: red;
+}
+
+ul.languages-list {
+  list-style-image: url("https://raw.githubusercontent.com/p-mitchell1007/lab-css-selectors/main/assets/globe.png")
 }
