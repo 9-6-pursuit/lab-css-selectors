@@ -17,8 +17,7 @@ ul{
   list-style-type: none;
 }
 .languages-list{
-  list-style-image: globe.png;
-
+  list-style-image:url("/Users/Starr/Desktop/CODING/lab-css-selectors/assets/globe.png");
 }
 
 ol {
