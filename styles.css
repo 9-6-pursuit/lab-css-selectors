@@ -3,7 +3,10 @@
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;
+  font-family: Georgia, serif;
   font-size: 30px;
+  font-weight: bold;
+  text-decoration: blue underline;
 }
 
 ul {
@@ -32,6 +35,9 @@ img {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   font-family: sans-serif;
 }
 
@@ -50,11 +56,31 @@ html {
 }
 
 p {
+  font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 h2,
 h3 {
+  font-family: Georgia, serif;
   font-size: 20px;
+  font-weight: bold;
+  text-decoration: blue underline;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(assets/globe.png);
 }
