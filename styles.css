@@ -13,8 +13,7 @@ a {
 }
 
 .languages-list {
-  list-style-image: url(".assets/globe.png")
-
+  list-style-image: url("./assets/globe.png")
 }
 
 /* Do not change any CSS below this line. */
