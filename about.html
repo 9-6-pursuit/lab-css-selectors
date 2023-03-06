@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Intro</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      h1 {
+          font-weight: bold;
+          text-decoration: underline 1px solid rgb(0, 0, 255) ;
+          }
+      h2 {
+          font-weight: bold;
+          text-decoration: underline 1px solid rgb(0, 0, 255) ;
+          }
+      h3 {
+          font-weight: bold;
+          text-decoration: underline 1px solid rgb(0, 0, 255) ;
+          }
+    </style>
   </head>
   <body>
-    <h1>Your Name Here</h1>
+    <h1 class="bebolded">Your Name Here</h1>
     <div>
-      <p>
+      <p class="para">
         This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
         working I'm busy doing this and that.
@@ -20,20 +34,21 @@
     <img
       src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
       alt="Profile photo"
+      class="profile-photo"
     />
 
     <div>
-      <h2>Here are some of my Skills!</h2>
+      <h2 class="bebolded skills-header">Here are some of my Skills!</h2>
 
-      <h3>Languages</h3>
-      <ul>
+      <h3 class="bebolded">Languages</h3>
+      <ul class="languages-list">
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
         <li>CSS3</li>
       </ul>
 
-      <h3>Libraries</h3>
+      <h3 class="bebolded">Libraries</h3>
       <ol>
         <li>React</li>
         <li>PostgreSQL</li>
@@ -43,25 +58,25 @@
     </div>
 
     <div>
-      <h2>Hardest Bug So Far</h2>
-      <p>
+      <h2 class="bebolded skills-header">Hardest Bug So Far</h2>
+      <p class="para">
         My hardest bug I ever came across was this infinite loop I couldn't
         escape.
       </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
+      <p class="para">I came up with a totally sick solution though by doing ...</p>
     </div>
 
-    <h2>Contact Me</h2>
+    <h2 class="bebolded skills-header">Contact Me</h2>
     <div>
       Email me at:
-      <a href="#" target="_top">hello@pursuit.org</a>
+      <a href="#" target="_top" class="link">hello@pursuit.org</a>
     </div>
 
     <ul>
-      <li><a href="#">github link</a></li>
-      <li><a href="#">LinkedIn link</a></li>
-      <li><a href="#">Angel list link</a></li>
-      <li><a href="#">Pursuit link</a></li>
+      <li><a href="#" class="link">github link</a></li>
+      <li><a href="#" class="link">LinkedIn link</a></li>
+      <li><a href="#" class="link">Angel list link</a></li>
+      <li><a href="#" class="link">Pursuit link</a></li>
     </ul>
 
     <form action="index.html" method="post">

@@ -1,4 +1,45 @@
 /* Write your CSS below. */
+.para {
+  font-family: Helvetica, sans-serif;
+ }
+
+h1 {
+  font-family: Georgia, serif;
+}
+h2 {
+  font-family: Georgia, serif;
+}
+h3 {
+  font-family: Georgia, serif;
+}
+
+.profile-photo {
+  border-style: solid; width: 1px; color: blue;
+}
+
+body {
+  text-align: center;
+  }
+
+.bebolded {
+  font-weight: bold;
+  text-decoration: underline solid rgb(0, 0, 255) 1px;
+}
+
+.skills-header{
+  color: rebeccapurple;
+}
+
+.link {
+  color: red;
+}
+
+.languages-list{
+  list-style-image: url("/Users/win/labs/lab-css-selectors/assets/globe.png")
+}
+
+
+
 
 /* Do not change any CSS below this line. */
 h1 {
