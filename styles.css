@@ -1,45 +1,127 @@
 /* Write your CSS below. */
 
 /* Do not change any CSS below this line. */
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
 h1 {
   color: blue;
   font-size: 30px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline blue;
 }
 
-ul {
-  list-style-type: none;
+h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline blue;
 }
 
-ol {
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: red;
+}
+
+.skills-header {
+  color: rebeccapurple;
   font-weight: bold;
 }
 
-li {
-  text-align: center;
-  border: 1px solid red;
-  border-radius: 10px;
-  color: blue;
-  background-color: lightpink;
-  padding-left: 30px;
+.languages-list {
+  list-style-image: url('assets/globe.png');
 }
 
-img {
-  width: auto;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.languages-list li {
+  list-style-type: none;
+}
+
+
+ul li {
+  border: 1px solid red;
+  background-color: pink;
+  border-radius: 5px;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+a {
+  color: red;
 }
 
 body {
-  font-family: sans-serif;
-}
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  }
+  
+  h1 {
+  color: blue;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline blue;
+  }
+  
+  h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline blue;
+  }
+  
+  p {
+  font-family: Helvetica, sans-serif;
+  }
+  
+  a {
+  color: red;
+  }
+  
+  .skills-header {
+  color: rebeccapurple;
+  font-weight: bold;
+  }
+  
+  .languages-list {
+  list-style-image: url('assets/globe.png');
+  }
+  
+  .languages-list li {
+  list-style-type: none;
+  color:blue
+  }
+  
 
-h3 {
-  text-decoration-line: underline;
-}
+  
+  ul li {
+  border: 1px solid red;
+  background-color: pink;
+  border-radius: 10px;
+  font-weight: bold;
+  }
+  
+  .profile-photo {
+  border: 1px solid blue;
+  }
 
-html {
+  .libraries-list li {
+    border: 1px solid red;
+    background-color: pink;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+html{
   background-color: rgb(159, 193, 201);
   background: radial-gradient(
     circle,
@@ -47,14 +129,4 @@ html {
     rgba(224, 209, 221, 1) 52%,
     rgba(0, 212, 255, 1) 100%
   );
-}
-
-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-h2,
-h3 {
-  font-size: 20px;
 }
