@@ -120,3 +120,12 @@ body {
     list-style-type: none;
   }
   
+html{
+  background-color: rgb(159, 193, 201);
+  background: radial-gradient(
+    circle,
+    rgba(159, 193, 201, 1) 9%,
+    rgba(224, 209, 221, 1) 52%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
