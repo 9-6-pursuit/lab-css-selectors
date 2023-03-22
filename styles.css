@@ -1,5 +1,23 @@
 /* Write your CSS below. */
 
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+body {
+  text-align: center;
+}
+
+h2
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+}
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;
