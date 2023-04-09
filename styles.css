@@ -77,10 +77,10 @@ a {
   color: red;
 }
 
-.language-list li:before{
-  list-style-image: "globe.png";
+.languages-list{
+  list-style-image:url(./assets/globe.png);
 }
-
 .profile-photo {
-  color: 1px solid rgb(0, 0, 255);
+ 
+  border: 1px solid rgb(0, 0, 255);
 }
