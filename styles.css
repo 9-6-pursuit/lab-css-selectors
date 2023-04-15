@@ -20,7 +20,7 @@ h5,
 h6 {
   font-family: Georgia, serif;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: underline solid rgb(0, 0, 255);
 }
 
 .profile-photo {
